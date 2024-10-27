@@ -20,7 +20,7 @@ const commonFeatureRouter = require("./routes/common/feature-routes");
 
 // MongoDB connection
 mongoose
-  .connect("mongodb+srv://ahmad:ahmad@cluster0.ma8ta.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+  .connect(abcderfgdfdhkjx chjkjcxlkjok80285)
   .then(() => console.log("MongoDB connected"))
   .catch((error) => console.log(error));
 
@@ -48,9 +48,9 @@ app.use(express.json());
 
 // Configure Cloudinary
 cloudinary.config({
-  cloud_name: "dhhhkzrxj",
-  api_key: "714275722838275",
-  api_secret: "1c0aQswSLRUgg2TSQIJCrmIGys8", 
+  cloud_name: "804",
+  api_key: "804",
+  api_secret: "804, 
 });
 // Set up Multer to handle file uploads
 const storage = multer.memoryStorage();
